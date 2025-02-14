@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "YouTube Summarizer",
+        "imageSrc": "public/projects/youtube_summarizer.png",
+        "description": "This ia  a project Extracts and condenses YouTube video transcripts, providing concise summaries for quick content understanding.",
+        "skills": ["React", "Express", "Node", "MongoDb"],
+        "source": "https://github.com/AAMANKUMAR0007/Youtube-summarizer.git",
+        "demo": "https://ww.example.com"
+    },
+    {
+        "id": 2, 
+        "title": "Task Management System",
+        "imageSrc": "public/projects/task_management.png",
+        "description": "This is a project which allows to Streamline your workflow with our intuitive task management system, boosting productivity and team collaboration. ",
+        "skills": ["Html", "css", "javascript"],
+        "source": "https://github.com/AAMANKUMAR0007/internship_internshala.git",
+        "demo": "https://ww.example.com"
+    },
+    {
+        "id": 3, 
+        "title": "E-Commerce Website",
+        "imageSrc": "public/projects/task_management.png",
+        "description": "A platform connecting buyers and sellers, simplifying online transactions and shopping experiences. ",
+        "skills": ["React", "Express", "Node", "MongoDb", "Clerk Auth"],
+        "source": "https://github.com/AAMANKUMAR0007/Ecommerce.git",
+        "demo": "https://ww.example.com"
+    }
+]

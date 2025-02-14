@@ -1,0 +1,94 @@
+@import "../../vars.css";
+
+.container {
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px; /* Increased gap between skill groups */
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    gap: 20px;
+    width: calc(25% - 50px); /* Four columns with adjusted gap */
+    box-sizing: border-box;
+    text-align: center; /* Center text within skill */
+}
+
+.skillImageContainer {
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.skillImageContainer img {
+    width: 75px;
+    display: block;
+    margin: 0 auto;
+}
+
+.skill p {
+    font-size: 25px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    /* Removed text-align: center; as it's already centered in .skill */
+}
+
+#id p{
+   margin-left: 25px;
+}
+
+/* Media Queries */
+@media (max-width: 992px) { /* Adjust breakpoint as needed */
+    .skill {
+        width: calc(33.33% - 50px); /* Three columns */
+    }
+    .skills {
+        gap: 30px; /* Adjust gap */
+    }
+}
+
+@media (max-width: 768px) {
+    .skill {
+        width: calc(50% - 30px); /* Two columns */
+    }
+    .skills {
+        gap: 25px; /* Adjust gap */
+    }
+}
+
+@media (max-width: 480px) {
+    .skill {
+        width: 100%; /* One column */
+        margin-bottom: 25px;
+    }
+    .skills {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px; /* Adjust gap */
+    }
+}
